@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-    baseURL: 'https://smarttools-1638417877322.azurewebsites.net/'
+    baseURL: 'http://localhost:8080/'
 })
 
 export default api;
