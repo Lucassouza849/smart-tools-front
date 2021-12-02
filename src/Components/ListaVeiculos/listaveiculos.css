@@ -1,0 +1,92 @@
+.lista__veiculos{
+    grid-area: main;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+
+.section__one__veiculos{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    margin-left: 50px; 
+    
+}
+
+.filter__lista__veiculos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;    
+}
+
+.lista__veiculos__btn > button{
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    border-radius: 8px;
+    font-weight: 700;
+    background: #132C33;
+    color: #FFF;
+    border: none;
+    transition: 0.2s;
+}
+
+.search__veiculos__btn > button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background: #F1D07A;
+    color: #000;
+    border: none;
+    transition: 0.2s;
+
+}
+
+.search__veiculos__btn > button:hover{
+    cursor: pointer;
+    background: #f1d691;
+}
+
+.lista__veiculos__btn > button:hover {
+    cursor: pointer;
+    background: #132c33d8;
+}
+
+.filter__input__veiculos > input{
+    width: 150px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid rgb(173, 172, 172);
+    margin-right: 10px;
+}
+
+.linha__vertical__veiculos{
+    display: grid;
+    margin-top: 20px;
+    border: 1px solid orange;
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+.linha__horizontal__thead{
+    display: grid;
+    border: 1px solid orange;
+    width: 100%;
+}
+
+.tabela__lista__veiculos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 90px;
+}
+
+
+
+
+
+
+

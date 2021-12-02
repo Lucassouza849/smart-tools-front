@@ -1,0 +1,278 @@
+.section-about{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-two{
+    margin-top: 200px;
+    margin-bottom: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.container-about{
+    width: 80%;
+    display: flex;
+    justify-content: center;  
+}
+
+.texto-h2{
+    color: #126E82;
+    text-transform: uppercase;
+    width: 50%;
+    margin-top: 100px;
+    /* margin-right: 70px;  */
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 300;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section-linha{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.linha{
+    width: 90%;
+    border: 1px orange solid;
+    margin-bottom: 0px;
+}
+
+.button{
+    background-color: #f6c74d;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    border: #f6c74d;
+ 
+}
+
+ .img-anotacao{
+    width: 30%;
+    
+ }
+
+ .img-anotacao > img {
+     width: 300px;
+     height: 200px;
+ }
+
+ .img > img{
+     width: 300px;
+     height: 200px;
+ }
+
+ .texto-anotacao{
+     width: 70%;
+ }
+
+ .texto-anotacao h2{
+    color: #126E82;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-left: 100px;
+    font-weight: 700;
+
+ }
+
+ .texto-anotacao p{
+     margin-top: 90px;
+     font-size: 18px;
+     margin-left: 100px;
+     font-weight: 300;
+ }
+
+ .pipe-quemSomos{
+    width: 3px;
+    height: 300px;
+    background-color: #D96E17;
+    margin-left: 40px;
+
+ }
+
+
+ 
+ .mensagem{   
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.content1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.content2{
+    width: 30%;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.mensagem .content1 h2{
+    color:#126E82;
+    font-size: 36px;
+    text-align: right;
+}
+
+.mensagem .content2 h2{
+    color:#126E82;
+    font-size: 36px;
+    text-align: left;
+}
+
+.mensagem .content1 p {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.mensagem .content2 p {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.container-box{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}
+
+.section-box{
+    margin-top: 200px;
+    margin-bottom: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imag-box{
+
+    display: flex;
+    justify-content: center;      
+}
+
+.content-img{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-img img{
+
+    margin-bottom: 20px;
+}
+
+
+
+.section-time{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-time h1{
+    color: #126E82;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.container-time{
+    margin-top: 5%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time{
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 160px;
+    color: #D96E17;
+}
+
+.time .integrante1 img{
+    width: 200px;
+    height: 200px;
+}
+
+.time .integrante2 img{
+    width: 200px;
+    height: 200px;
+}
+
+.time .integrante3 img{
+    width: 200px;
+    height: 200px;
+}
+
+.time .integrante4 img{
+    width: 200px;
+    height: 200px;
+}
+
+.time .integrante5 img{
+    width: 200px;
+    height: 200px;
+}
+
+.time .integrante1 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.time .integrante2 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.time .integrante3 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.time .integrante4 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.time .integrante5 p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+

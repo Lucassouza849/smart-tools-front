@@ -1,0 +1,156 @@
+.lista__extrato{
+    grid-area: main;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 20px;
+}
+
+.section__one__extrato{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    margin-left: 110px;
+    
+}
+
+.filter__lista__extrato{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;    
+}
+
+.lista__extrato__btn > button{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background: #132C33;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    transition: 0.2s;
+}
+
+.search__extrato__btn > button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    background: #F1D07A;
+    color: #000;
+    border: none;
+    transition: 0.2s;
+    margin-right: 150px;
+}
+
+.search__extrato__btn > button:hover{
+    cursor: pointer;
+    background: #f1d691;
+}
+
+.lista__extrato__btn > button:hover {
+    cursor: pointer;
+    background: #132c33d8;
+}
+
+.filter__input__extrato > input{
+    width: 150px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid rgb(173, 172, 172);
+}
+
+.linha__vertical__extrato{
+    display: grid;
+    margin-top: 20px;
+    border: 1px solid orange;
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+.linha__horizontal__thead{
+    display: grid;
+    border: 1px solid orange;
+    width: 100%;
+}
+
+/* .tabela__lista__extrato{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 90px;
+    
+} */
+
+/* estilizacao tabela */
+
+.lista_extrato_center{
+    width: 100%;
+    /* padding-left: 40px; */
+}
+
+
+.container__table__extrato > table{
+   width: 90%;
+   padding-top: 10px;
+   padding-left: 100px;
+   border-spacing: 0 0.2rem;
+   margin-bottom: 20px; 
+
+}
+
+.th_extrato{
+    color: rgb(88, 85, 85);
+    padding: 1rem 2rem;
+    text-align: left;
+    line-height: 1.5rem;
+    font-size: 16px;
+}
+
+.td_extrato{
+    background-color: #ffffff52;
+    color: rgb(88, 85, 85);    
+}
+
+th{
+    padding-left: 15px;
+}
+
+td{
+    padding: 1rem 1rem;
+    border-radius: 5px;
+}
+
+/* modal da importação */
+.container_modal_lista_extrato{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.title_lista_extrato > h3{
+    color: #126E82;
+}
+
+
+.button_extrato {
+    width: 60px;
+    height: 30px;
+    background-color: #bdb8b846;
+    border: 0;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.button_extrato:hover{
+    cursor: pointer;
+    background-color: #a5a2a288;
+
+}
+
+
+

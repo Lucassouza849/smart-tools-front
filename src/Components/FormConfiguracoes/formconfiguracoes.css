@@ -1,0 +1,58 @@
+.container__configuracoes{
+    grid-area: main;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.configuracoes__avatar{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.configuracoes__avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img__avatar > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.form__config__user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.input__config > input{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid yellow;
+}
+
+.item__forms__config > button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #132C33;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.item__forms__config > button:hover{
+    cursor: pointer;
+    background-color: #132c33d8;
+}

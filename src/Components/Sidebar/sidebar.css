@@ -1,0 +1,294 @@
+#sidebar{
+    background: #e4e9eb;
+    grid-area: sidebar;
+    overflow-y: auto;
+    padding: 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.sidebar__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.sidebar__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.sidebar__title > div > img{
+    width: 120px;
+    object-fit: contain;
+}
+
+.sidebar__title > div > h1{
+    font-size: 25px;
+    display: inline;
+}
+
+.btn-new-transaction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn-new-transaction button{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background: #132C33;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.container-btn-new-transaction button:hover{
+    cursor: pointer;
+    background: #132c33d8;
+}
+
+
+
+.sidebar__link > img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.sidebar__link {
+    width: 100%;
+    margin-right: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none !important;
+    list-style-type: none;
+    list-style-type: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    gap: 10px;
+}
+
+.menu__dash__side {
+    width: 100%;
+}
+
+
+.selected {
+    width: 100%;
+    background-color: #1e455c9f;
+    border-radius: 6px;
+    
+}
+
+
+
+
+
+.sidebar__link:hover{
+    width: 100%;
+    cursor: pointer;
+    background: #132c33d3;
+    color: #FFF;
+    border-radius: 3px;
+}
+
+/* .sidebar__link > i {
+    margin-right: 10px;
+    font-size: 18px;
+} */
+
+.sidebar__logout{
+    display: flex;
+    justify-content: center;
+    transition: 0.2s;
+    width: 100%;
+}
+
+/* .sidebar__logout:focus{
+    background: rgba(62, 161, 117, 0.3);
+    border-radius: 3px;
+} */
+
+.link__logou__dash{
+    width: 100%;
+}
+
+.sidebar__logout > li:hover{
+    cursor: pointer;
+    background: #ad502b;
+    color: #FFF;
+    border-radius: 3px;
+}
+
+.sidebar__logout > li{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #132C33;
+    font-weight: 700;
+}
+
+
+/* modal começa aqui */
+
+.modal__transaction__header{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.modal__transaction__header > button{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+
+    
+}
+
+.modal__transaction__header > h2{
+    color: #126E82;
+}
+
+.container__input__extrato {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+.container__input__extrato > input{
+    width: 95%;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: none;
+    background-color: #EBF0F3;
+}
+
+.container__button__transaction{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10%;
+}
+
+.container__button__transaction > button {
+    width: 50%;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #EBF0F3;
+    background-color: #EBF0F3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+.active {
+    background-color: rgba(193, 248, 193, 0.514) !important;
+    color: #000;
+}
+
+.activeRed{
+    background-color: rgba(255, 208, 208, 0.582) !important;
+    color: #000;
+}
+
+.container__button__transaction > button:hover{
+    cursor: pointer;
+    border-color: #aaa;
+}
+
+
+/* .container__button__transaction > span:first-child{
+    color: green;
+    
+}
+
+
+.container__button__transaction > span{
+    color: red;
+} */
+
+ .container__button__transaction > button > img {
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.input__categoria__trasaction > input{
+    margin-top: 20px;
+    width: 95%;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #EBF0F3;
+    border-radius: 6px;
+}
+
+.container__input__client{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.container__input__client > input {
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: #EBF0F3;
+    border-radius: 6px;
+}
+
+.button__salvar__transaction > button{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: #126E82;
+    border-radius: 6px;
+    border: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.button__salvar__transaction > button:hover{
+    cursor: pointer;
+    background-color: #177e96f6;
+}

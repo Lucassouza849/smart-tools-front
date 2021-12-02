@@ -1,0 +1,130 @@
+main{
+    background-color: #f3f3f4f6;
+    grid-area: main;
+    overflow-y: auto;
+}
+
+.main__container{
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+ 
+.header_main_user{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 530px;
+    align-items: center;
+
+}
+
+.header_main_user > button {
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    background: #132C33;
+    color: #FFF;
+    font-weight: 700;
+    border: none;
+    transition: 0.2s;
+}
+
+.header_main_user > button:hover{
+    cursor: pointer;
+    background: #132c33d8;
+}
+
+.header_main_user > h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.main__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: var(--color-one);
+
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF;
+}
+
+.card > img {
+
+    width: 40px;
+    height: 40px;
+}
+
+.card_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_inner > p{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.card_inner > span{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.charts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+    width: 85%;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.charts__left{
+    padding: 25px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF;
+}
+
+.charts__left__tittle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.charts__left__tittle > div > h3{
+    font-size: 24px;
+    color: #2e4a66;
+    margin-bottom: 5px;
+}
+
+.charts__right{
+    padding: 25px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF;
+}
+
+.charts__right__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.charts__right__tittle > div > h3{
+    font-size: 24px;
+    color: #2e4a66;
+    margin-bottom: 5px;
+}
