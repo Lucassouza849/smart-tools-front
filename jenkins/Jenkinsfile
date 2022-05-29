@@ -7,10 +7,10 @@ pipeline {
  
  sh '''
  cd /var/lib/jenkins/workspace/Deploy-SmartTools-React
-sudo npm run build
-sudo cp build/. /etc/nginx/html/
-sudo cp -r build/. /etc/nginx/html/
-sudo systemctl reload  nginx
+ npm run build
+ cp build/. /etc/nginx/html/
+ cp -r build/. /etc/nginx/html/
+ systemctl reload  nginx
  '''
        }
     }
