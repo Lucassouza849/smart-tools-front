@@ -1,0 +1,17 @@
+#! /usr/bin/env groovy
+pipeline {
+ agent any
+ stages {
+ stage('Build') {
+ steps {
+ sh '''
+ cd /home/ec2-user/smart-tools-front/
+sudo npm run build
+sudo cp build/. /etc/nginx/html/
+sudo cp -r build/. /etc/nginx/html/
+sudo systemctl reload  nginx
+ '''
+       }
+    }
+  }
+}
