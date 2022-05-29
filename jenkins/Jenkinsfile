@@ -5,13 +5,7 @@ pipeline {
  stage('Build') {
  steps {
  
- sh '''
- cd /var/lib/jenkins/workspace/Deploy-SmartTools-React
- npm run build
- cp build/. /etc/nginx/html/
- cp -r build/. /etc/nginx/html/
- systemctl reload  nginx
- '''
+ sh './depoy.sh'
        }
     }
   }
