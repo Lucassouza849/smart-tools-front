@@ -5,7 +5,7 @@ pipeline {
  stage('Build') {
  steps {
  
- sh './depoy.sh'
+ sh './deploy.sh'
        }
     }
   }
