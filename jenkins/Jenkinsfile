@@ -4,8 +4,9 @@ pipeline {
  stages {
  stage('Build') {
  steps {
- sh '/var/lib/jenkins/workspace/Deploy-SmartTools-React'
+ 
  sh '''
+ cd /var/lib/jenkins/workspace/Deploy-SmartTools-React
 sudo npm run build
 sudo cp build/. /etc/nginx/html/
 sudo cp -r build/. /etc/nginx/html/
